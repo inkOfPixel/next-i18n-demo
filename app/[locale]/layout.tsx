@@ -24,6 +24,11 @@ export default function LocaleLayout({ children, params }: any) {
               German
             </Link>
           </li>
+          <li className="hover:underline">
+            <Link href="/" locale="it">
+              Italian
+            </Link>
+          </li>
         </ul>
         {children}
       </body>

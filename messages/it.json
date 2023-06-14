@@ -1,0 +1,6 @@
+{
+  "IndexPage": {
+    "title": "esempio next-intl",
+    "description": "Questo è un esempio base che dimostra l'uso di <code>next-intl</code> con l'App Router di Next.js. Prova a cambiare la lingua nell'angolo in alto a destra e vedi come cambia il contenuto."
+  }
+}
