@@ -3,11 +3,17 @@ const withNextIntl = require("next-intl/plugin")(
   "./i18n.ts"
 );
 
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-module.exports = withNextIntl({
-  // Other Next.js configuration ...
-  ...nextConfig,
-  experimental: { appDir: true },
-});
+module.exports = withBundleAnalyzer(
+  withNextIntl({
+    // Other Next.js configuration ...
+    ...nextConfig,
+    experimental: { appDir: true },
+  })
+);
