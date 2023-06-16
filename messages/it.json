@@ -1,12 +1,12 @@
 {
   "IndexPage": {
-    "title": "Welcome to iFixit Translation demo using next-intl",
-    "You are on page {page}!": "You are on page {page}!",
-    "bench rating": "{starCount, plural, =0 {awful} =1 {one star} other {# stars}}!",
-    "rich-text": "This is localized <b>rich</b> <i>text</i>.",
-    "comment label": "Write a comment (max {max} characters)",
-    "submit comment button text": "Post comment",
-    "comment is too long": "Your comment is too long. Please keep it under {max} characters. It is currently {current} characters",
-    "select": "{gender, select, female {She is} male {He is} other {They are}} online."
+    "title": "Benvenuto nella demo di Traduzione iFixit utilizzando next-intl",
+    "You are on page {page}!": "Sei sulla pagina {page}!",
+    "bench rating": "{starCount, plural, one {}=0 {terribile} =1 {una stella} other {# stelle}}!",
+    "rich-text": "Questo é <b>rich</b> <i>text</i> localizzato.",
+    "comment label": "Scrivi un commento (max {max} caratteri)",
+    "submit comment button text": "Pubblica commento",
+    "comment is too long": "Il tuo commento è troppo lungo. Si prega di mantenerlo sotto {max} caratteri. Attualmente sono {current} caratteri",
+    "select": "{gender, select, female {Lei è} male {Lui è} other {Loro sono}} online."
   }
 }
