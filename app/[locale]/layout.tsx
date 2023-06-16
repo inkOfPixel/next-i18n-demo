@@ -13,7 +13,7 @@ export default function LocaleLayout({ children, params }: any) {
   return (
     <html lang={locale}>
       <body>
-        <ul className="flex space-x-2 bg-blue-950 h-16 px-5 items-center justify-end">
+        <ul className="flex space-x-2 bg-gray-900 h-16 px-5 items-center justify-end">
           <li className="hover:underline">
             <Link href="/" locale="en">
               English
