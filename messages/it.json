@@ -1,4 +1,12 @@
 {
-  "next-intl example": "Esempio next-intl",
-  "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next<dot/>js App Router<dot/> Try changing the locale in the top right corner and see how the content changes<dot/>": "Questo è un esempio base che dimostra l'uso di <code>next-intl</code> con l'App Router di Next.js. Prova a cambiare la lingua nell'angolo in alto a destra e vedi come cambia il contenuto."
+  "IndexPage": {
+    "title": "Welcome to iFixit Translation demo using next-intl",
+    "You are on page {page}!": "You are on page {page}!",
+    "bench rating": "{starCount, plural, =0 {awful} =1 {one star} other {# stars}}!",
+    "rich-text": "This is localized <b>rich</b> <i>text</i>.",
+    "comment label": "Write a comment (max {max} characters)",
+    "submit comment button text": "Post comment",
+    "comment is too long": "Your comment is too long. Please keep it under {max} characters. It is currently {current} characters",
+    "select": "{gender, select, female {She is} male {He is} other {They are}} online."
+  }
 }
