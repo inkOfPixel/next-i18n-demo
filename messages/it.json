@@ -3,10 +3,10 @@
     "title": "Benvenuto nella demo di Traduzione iFixit utilizzando next-intl!",
     "You are on page {page}!": "Sei sulla pagina {page}!",
     "bench rating": "{starCount, plural, one {}=0 {terribile} =1 {una stella} other {# stelle}}!",
-    "rich-text": "Questo é <b>rich</b> <i>text</i> localizzato.",
+    "rich-text": "Questo qui é <b>rich</b> <i>text</i> localizzato.",
     "comment label": "Scrivi un commento (max {max} caratteri)",
-    "submit comment button text": "Pubblica commento",
-    "comment is too long": "Il tuo commento è troppo lungo. Si prega di mantenerlo sotto {max} caratteri. Attualmente sono {current} caratteri",
+    "submit comment button text": "Pubblica risposta",
+    "comment is too long": "Il tuo commento è supera la lunghezza consentita. Si prega di mantenerlo sotto {max} caratteri. Attualmente sono {current} caratteri",
     "select": "{gender, select, female {Lei è} male {Lui è} other {Loro sono}} online."
   }
 }
