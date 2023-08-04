@@ -1,11 +1,11 @@
 {
   "IndexPage": {
-    "title": "Welcome to iFixit Translation demo using next-intl",
-    "You are on page {page}!": "You are on page {page}!",
-    "bench rating": "{starCount, plural, =0 {awful} =1 {one star} other {# stars}}!",
-    "rich-text": "This is localized <b>rich</b> <i>text</i>.",
-    "comment label": "Write a comment (max {max} characters)",
-    "submit comment button text": "Post comment",
+    "title": "Willkommen zur iFixit Übersetzungs-Demo mit next-intl",
+    "You are on page {page}!": "Sie sind auf Seite {page}!",
+    "bench rating": "{starCount, plural, one {}=0 {furchtbar} =1 {ein Stern} other {# Sterne}}",
+    "rich-text": "Dies ist lokalisiert <b>rich</b> <i>Text</i>.",
+    "comment label": "Schreibe einen Kommentar (max. {max} Zeichen)",
+    "submit comment button text": "Kommentar posten",
     "comment is too long": "Your comment is too long. Please keep it under {max} characters. It is currently {current} characters",
     "select": "{gender, select, female {She is} male {He is} other {They are}} online."
   }
