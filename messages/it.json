@@ -1,6 +1,6 @@
 {
   "IndexPage": {
-    "title": "Benvenuto nella demo di Traduzione iFixit utilizzando next-intl",
+    "title": "Benvenuto nella demo di Traduzione iFixit utilizzando next-intl!",
     "You are on page {page}!": "Sei sulla pagina {page}!",
     "bench rating": "{starCount, plural, one {}=0 {terribile} =1 {una stella} other {# stelle}}!",
     "rich-text": "Questo é <b>rich</b> <i>text</i> localizzato.",
