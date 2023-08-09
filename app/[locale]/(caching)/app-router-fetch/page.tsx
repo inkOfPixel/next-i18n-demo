@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 async function getData() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_ORIGIN}/api/time`);
   const data = await res.json();
