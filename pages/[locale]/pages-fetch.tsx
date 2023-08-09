@@ -38,7 +38,7 @@ export default function Page({
         </div>
         <div className="py-5">
           <a
-            href="https://github.com/inkOfPixel/next-i18n-demo/blob/main/pages/en/pages-fetch.tsx"
+            href="https://github.com/inkOfPixel/next-i18n-demo/blob/main/pages/%5Blocale%5D/pages-fetch.tsx"
             target="_blank"
             className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
