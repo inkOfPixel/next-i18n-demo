@@ -10,7 +10,7 @@ export default async function Page() {
   const data = await getData();
   const data2 = await getData();
   return (
-    <div>
+    <div className="p-5">
       <h1 className="text-2xl font-semibold">App router fetch</h1>
       <p className="text-sm text-stone-500">
         Testing app router fetch behaviour
@@ -20,9 +20,6 @@ export default async function Page() {
         <br />
         <span>Time 2:</span> <span>{data2.time}</span>
       </div>
-      <Link href="/en/pages-fetch" className="underline text-sky-500">
-        pages fetch
-      </Link>
     </div>
   );
 }
