@@ -8,7 +8,7 @@ type Data = {
 export const getServerSideProps: GetServerSideProps<{
   data: Data;
 }> = async () => {
-  const res = await fetch("http://localhost:3000/api/time");
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_ORIGIN}/api/time`);
   const data = await res.json();
   return { props: { data } };
 };
