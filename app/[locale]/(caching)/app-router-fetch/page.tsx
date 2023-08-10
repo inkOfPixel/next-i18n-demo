@@ -1,7 +1,9 @@
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/20/solid";
 
 async function getData() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_ORIGIN}/api/time`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_ORIGIN}/api/time`, {
+    cache: "force-cache",
+  });
   const data = await res.json();
   return data;
 }
